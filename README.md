@@ -1,4 +1,4 @@
-# 📊 Strategic Risk Analysis & Portfolio Optimization  
+# Strategic Risk Analysis & Portfolio Optimization  
 
 **Sector:** Financial Services / Peer-to-Peer Lending  
 **Team:** G-14  
@@ -6,16 +6,16 @@
 
 ---
 
-## 📌 Executive Summary  
+## Executive Summary  
 
-### 🔎 Problem  
+### Problem  
 The current loan portfolio has a **1.11% default rate**, with concentrated risk in:
 - High-risk credit grades (F & G)  
 - Long-term (60-month) loans  
 
 These segments threaten overall portfolio profitability.
 
-### 🛠 Approach  
+### Approach  
 - Analyzed LendingClub Q1 2018 dataset (10,000+ records)  
 - Conducted Exploratory Data Analysis (EDA)  
 - Identified risk drivers across:
@@ -24,22 +24,22 @@ These segments threaten overall portfolio profitability.
   - Loan Purpose  
   - Debt-to-Income (DTI) Ratio  
 
-### 📈 Key Insights  
+### Key Insights  
 - **Grade F** → 10.34% default rate (highest risk)  
 - **60-month loans** → 1.49% default rate  
 - **36-month loans** → 0.95% default rate  
 - **House loans** → 3.97% default rate  
 
-### ✅ Key Recommendation  
+### Key Recommendation  
 Implement **DTI ≤ 25% cap for 60-month loans**.
 
-### 💰 Impact  
+### Impact  
 - Reduce default rate from **1.11% → ~0.90%**
 - Protect approximately **$3.4M in principal**
 
 ---
 
-# 🏦 Sector & Business Context  
+# Sector & Business Context  
 
 ## Industry Overview  
 Peer-to-Peer (P2P) lending offers:
@@ -58,7 +58,7 @@ Optimize portfolio to balance:
 
 ---
 
-# 🎯 Problem Statement  
+# Problem Statement  
 
 ## Objective  
 Identify high-risk cohorts contributing disproportionately to defaults and reduce risk **without significantly reducing yield**.
@@ -77,7 +77,7 @@ Identify high-risk cohorts contributing disproportionately to defaults and reduc
 
 ---
 
-# 🗂 Data Description  
+# Data Description  
 
 - **Source:** LendingClub Q1 2018 Dataset  
 - **Records:** 10,000+ loans  
@@ -99,7 +99,7 @@ Identify high-risk cohorts contributing disproportionately to defaults and reduc
 
 ---
 
-# 🧹 Data Cleaning & Preparation  
+# Data Cleaning & Preparation  
 
 - Removed/imputed missing values  
 - Treated extreme DTI & income outliers  
@@ -111,7 +111,7 @@ Identify high-risk cohorts contributing disproportionately to defaults and reduc
 
 ---
 
-# 📊 KPI Framework  
+# KPI Framework  
 
 | KPI | Definition | Formula | Current Value |
 |------|------------|----------|---------------|
@@ -122,7 +122,7 @@ Identify high-risk cohorts contributing disproportionately to defaults and reduc
 
 ---
 
-# 🔍 Exploratory Data Analysis (EDA)
+# Exploratory Data Analysis (EDA)
 
 ## Default Rate by Grade  
 
@@ -161,7 +161,7 @@ Identify high-risk cohorts contributing disproportionately to defaults and reduc
 
 ---
 
-# 🧠 Advanced Analysis  
+# Advanced Analysis  
 
 ## Risk Segmentation  
 Identified toxic segment:
@@ -179,21 +179,21 @@ Identified toxic segment:
 
 ---
 
-# 🚀 Recommendations  
+# Recommendations  
 
-## 1️⃣ Cap DTI at 25% for 60-month loans  
+## 1. Cap DTI at 25% for 60-month loans  
 
 - Reduces default concentration  
 - Easy underwriting rule implementation  
 
-## 2️⃣ Tighten Grade F & House Loan Criteria  
+## 2. Tighten Grade F & House Loan Criteria  
 
 - Review pricing  
 - Adjust approval standards  
 
 ---
 
-# 📈 Impact Estimation  
+# Impact Estimation  
 
 - Default Rate: 1.11% → ~0.90%  
 - Principal Protected: ~$3.4M annually  
@@ -201,7 +201,7 @@ Identified toxic segment:
 
 ---
 
-# ⚠️ Limitations  
+# Limitations  
 
 - Single-quarter dataset  
 - Assumes historical patterns persist  
@@ -209,7 +209,7 @@ Identified toxic segment:
 
 ---
 
-# 🔮 Future Scope  
+# Future Scope  
 
 - Build Logistic Regression model  
 - Train Random Forest classifier  
@@ -218,13 +218,13 @@ Identified toxic segment:
 
 ---
 
-# 🏁 Conclusion  
+# Conclusion  
 
 By addressing concentrated risk in **Grade F**, **60-month loans**, and **high DTI borrowers**, the portfolio can reduce defaults to ~0.9% and protect ~$3.4M in capital — achieving a stronger balance between risk and return.
 
 ---
 
-# 👥 Contribution Matrix  
+# Contribution Matrix  
 
 | Team Member | Dataset | Cleaning | KPI & Analysis | Dashboard | Report | PPT | Role |
 |-------------|---------|----------|---------------|-----------|--------|-----|------|
@@ -237,9 +237,9 @@ By addressing concentrated risk in **Grade F**, **60-month loans**, and **high D
 
 ---
 
-## 📎 Appendix  
+## Appendix  
 
-- Data Dictionary: Link  
+- Data Dictionary: [Link](https://www.kaggle.com/datasets/utkarshx27/lending-club-loan-dataset)  
 - Extra Charts:
   - Distribution of Loan Amounts  
   - Interest Rate vs Grade Scatter Plot  
